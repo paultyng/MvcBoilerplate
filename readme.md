@@ -12,4 +12,5 @@ I got tired of creating this same thing everytime, and inspired by [HTML5 Boiler
 ## To Do
 
 * Integrate my widescreen version of [Skeleton](https://github.com/paultyng/Skeleton) (or something similar)
-* MVC 4?
+* [HTML 5 EditorTemplates](https://github.com/paultyng/Html5MvcTemplates)
+* MVC 4? (would make it so I don't need the above bullet)
