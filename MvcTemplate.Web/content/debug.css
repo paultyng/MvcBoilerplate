@@ -1,0 +1,3 @@
+﻿img:not([width]):not([height]) {
+  border: 2px solid red !important;
+}
