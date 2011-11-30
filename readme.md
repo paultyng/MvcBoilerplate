@@ -2,7 +2,7 @@
 
 I got tired of creating this same thing everytime, and inspired by [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate) decided I needed to create my blank MVC project.
 
-## Packages
+## Features/Packages
 
 * [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
 * [MvcMiniProfiler](http://code.google.com/p/mvc-mini-profiler/)
