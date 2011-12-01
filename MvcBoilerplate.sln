@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTemplate.Web", "MvcTemplate.Web\MvcTemplate.Web.csproj", "{954E2CAD-6477-4B44-A058-35599C0C0D0A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{FFF256BF-1A54-485B-B02A-BACDD917B1BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcBoilerplate.Web", "MvcBoilerplate.Web\MvcBoilerplate.Web.csproj", "{954E2CAD-6477-4B44-A058-35599C0C0D0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{954E2CAD-6477-4B44-A058-35599C0C0D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{954E2CAD-6477-4B44-A058-35599C0C0D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{954E2CAD-6477-4B44-A058-35599C0C0D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{954E2CAD-6477-4B44-A058-35599C0C0D0A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FFF256BF-1A54-485B-B02A-BACDD917B1BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FFF256BF-1A54-485B-B02A-BACDD917B1BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFF256BF-1A54-485B-B02A-BACDD917B1BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFF256BF-1A54-485B-B02A-BACDD917B1BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954E2CAD-6477-4B44-A058-35599C0C0D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954E2CAD-6477-4B44-A058-35599C0C0D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954E2CAD-6477-4B44-A058-35599C0C0D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954E2CAD-6477-4B44-A058-35599C0C0D0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
