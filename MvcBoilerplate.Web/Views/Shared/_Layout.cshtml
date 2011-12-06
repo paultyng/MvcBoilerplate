@@ -2,4 +2,11 @@
     Layout = "~/Views/Shared/_LayoutNoChrome.cshtml";
 }
 
-@RenderBody()
+<div class="nine columns">
+    @RenderBody()
+</div>
+
+@* Example Sidebar in layout *@
+<div class="three columns">
+    @RenderSection("SidebarContent", false)
+</div>

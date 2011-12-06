@@ -13,8 +13,9 @@
 
 	<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1" />
 
+    <link rel="stylesheet" href="@Url.Content("~/content/normalize.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/content/widestance.css")" />
     <link rel="stylesheet" href="@Url.Content("~/content/style.css")" />
-    <link rel="stylesheet" href="@Url.Content("~/content/skeleton.css")" />
 
     @if(HttpContext.Current.IsDebuggingEnabled)
     { 
@@ -27,23 +28,23 @@
 </head>
 <body>
 
-<div id="container">
-	<header>
+<div class="container">
+	<header class="row">
         @if (IsSectionDefined("HeaderContent"))
         {
             @RenderSection("HeaderContent")
         }
         else
         { 
-            <h1>@ViewBag.Title</h1>
+            <div class="twelve columns"><h1>@ViewBag.Title</h1></div>
         }
 	</header>
-	<div id="main" role="main">
+	<div role="main" class="row">
     
     @RenderBody()
 
 	</div>
-	<footer>
+	<footer class="row">
         @RenderSection("FooterContent", false)
 	</footer>
 </div>
