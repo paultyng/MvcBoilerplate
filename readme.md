@@ -9,7 +9,7 @@ I got tired of creating this same thing everytime, and inspired by [HTML5 Boiler
 * Modernizr
 * jquery
 * [HTML 5 EditorTemplates](https://github.com/paultyng/Html5MvcTemplates)
-* Integrate my widescreen version of [Skeleton](https://github.com/paultyng/Skeleton) (or something similar)
+* Integrate my widescreen version of [Skeleton](https://github.com/paultyng/WideStance) (now called WideStance)
 * Good MVC Error Handling (possibly integrate ELMAH or something?)
 
 ## To Do
